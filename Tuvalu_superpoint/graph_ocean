@@ -1,0 +1,25 @@
+digraph {
+	fonsize=20 pad=0.5 size="18,15"
+	0 [label="Shoreline Proxy" shape=rectangle]
+	fonsize=20 pad=0.5 size="18,15"
+	1 [label="Direction of shoreline (degrees)" shape=rectangle]
+	fonsize=20 pad=0.5 size="18,15"
+	2 [label="Angle between adjacent shoreline segments (degrees)" shape=rectangle]
+	fonsize=20 pad=0.5 size="18,15"
+	3 [label="Distance shoreline has moved" shape=rectangle]
+	fonsize=20 pad=0.5 size="18,15"
+	4 [label="(0.1997, 1.0, 'NE', 'mean')" shape=rectangle]
+	fonsize=20 pad=0.5 size="18,15"
+	5 [label="(0.1997, 1.0, 'ES', 'mean')" shape=rectangle]
+	fonsize=20 pad=0.5 size="18,15"
+	6 [label="(0.1997, 1.0, 'SW', 'mean')" shape=rectangle]
+	fonsize=20 pad=0.5 size="18,15"
+	7 [label="(0.1997, 1.0, 'WN', 'mean')" shape=rectangle]
+	0 -> 3
+	1 -> 3
+	2 -> 3
+	4 -> 3
+	5 -> 3
+	6 -> 3
+	7 -> 3
+}
