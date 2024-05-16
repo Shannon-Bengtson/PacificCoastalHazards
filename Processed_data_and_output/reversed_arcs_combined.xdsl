@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smile version="1.0" id="Unnamed" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Tob0">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<probabilities>0.6113207547169811 0.3622641509433963 0.02641509433962264</probabilities>
+		</cpt>
+		<cpt id="Previous0">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<parents>Tob0</parents>
+			<probabilities>0.6851851851851851 0.2469135802469136 0.06790123456790123 0.28125 0.6666666666666666 0.05208333333333333 0.2857142857142857 0.7142857142857142 0</probabilities>
+		</cpt>
+		<cpt id="Shorelinedirection0">
+			<state id="Low" />
+			<state id="High" />
+			<parents>Tob0</parents>
+			<probabilities>0.3641975308641975 0.6358024691358024 0.5833333333333333 0.4166666666666666 0.4285714285714285 0.5714285714285714</probabilities>
+		</cpt>
+		<cpt id="Tob1">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<probabilities>0.4566037735849057 0.4113207547169812 0.1320754716981132</probabilities>
+		</cpt>
+		<cpt id="Previous1">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<parents>Tob1</parents>
+			<probabilities>0.7272727272727273 0.2479338842975207 0.02479338842975207 0.2568807339449541 0.6880733944954129 0.05504587155963303 0.1714285714285714 0.2857142857142857 0.5428571428571428</probabilities>
+		</cpt>
+		<cpt id="Shorelinedirection1">
+			<state id="Low" />
+			<state id="High" />
+			<parents>Tob1</parents>
+			<probabilities>0.3966942148760331 0.6033057851239669 0.5963302752293578 0.4036697247706422 0.6857142857142857 0.3142857142857143</probabilities>
+		</cpt>
+		<cpt id="Tob2">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<probabilities>0.5095238095238096 0.3833333333333334 0.1071428571428572</probabilities>
+		</cpt>
+		<cpt id="Previous2">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<parents>Tob2</parents>
+			<probabilities>0.5794392523364486 0.4018691588785047 0.01869158878504673 0.3913043478260869 0.5093167701863354 0.09937888198757763 0.06666666666666667 0.3111111111111111 0.6222222222222222</probabilities>
+		</cpt>
+		<cpt id="Tcseason2">
+			<state id="True" />
+			<state id="False" />
+			<parents>Tob2</parents>
+			<probabilities>0.397196261682243 0.6028037383177569 0.5838509316770186 0.4161490683229813 0.4222222222222222 0.5777777777777778</probabilities>
+		</cpt>
+		<cpt id="Tob3">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<probabilities>0.1031746031746032 0.2063492063492063 0.6904761904761905</probabilities>
+		</cpt>
+		<cpt id="Previous3">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<parents>Tob3</parents>
+			<probabilities>0.4615384615384616 0.4615384615384616 0.07692307692307693 0.1153846153846154 0.576923076923077 0.3076923076923077 0.02298850574712644 0.2183908045977012 0.7586206896551724</probabilities>
+		</cpt>
+		<cpt id="Shorelinecurvature3">
+			<state id="Low" />
+			<state id="High" />
+			<parents>Tob3</parents>
+			<probabilities>0.07692307692307693 0.9230769230769231 0.2692307692307693 0.7307692307692308 0.4712643678160919 0.5287356321839081</probabilities>
+		</cpt>
+		<cpt id="Tob4">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<probabilities>0.01123595505617977 0.6891385767790262 0.299625468164794</probabilities>
+		</cpt>
+		<cpt id="Previous4">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<parents>Tob4</parents>
+			<probabilities>0.6666666666666666 0 0.3333333333333333 0.005434782608695652 0.6956521739130435 0.2989130434782609 0 0.5875 0.4125</probabilities>
+		</cpt>
+		<cpt id="Tcseason4">
+			<state id="True" />
+			<state id="False" />
+			<parents>Tob4</parents>
+			<probabilities>1 0 0.5815217391304348 0.4184782608695652 0.2875 0.7125</probabilities>
+		</cpt>
+		<cpt id="Tob5">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<probabilities>0.0297029702970297 0.0594059405940594 0.9108910891089109</probabilities>
+		</cpt>
+		<cpt id="Previous5">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<parents>Tob5</parents>
+			<probabilities>0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.3333333333333333 0.04347826086956522 0.1195652173913044 0.8369565217391304</probabilities>
+		</cpt>
+		<cpt id="Tob6">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<probabilities>0.2173913043478261 0.7608695652173912 0.02173913043478261</probabilities>
+		</cpt>
+		<cpt id="Shorelinedirection6">
+			<state id="Low" />
+			<state id="High" />
+			<parents>Tob6</parents>
+			<probabilities>0.2 0.7999999999999999 0.8367346938775511 0.163265306122449 0.7142857142857142 0.2857142857142857</probabilities>
+		</cpt>
+		<cpt id="Tob7">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<probabilities>0.1257142857142857 0.6171428571428571 0.2571428571428571</probabilities>
+		</cpt>
+		<cpt id="Previous7">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<parents>Tob7</parents>
+			<probabilities>0.3636363636363636 0.4090909090909091 0.2272727272727273 0.1111111111111111 0.787037037037037 0.1018518518518518 0.08888888888888889 0.3333333333333334 0.5777777777777778</probabilities>
+		</cpt>
+		<cpt id="Shorelinedirection7">
+			<state id="Low" />
+			<state id="High" />
+			<parents>Tob7</parents>
+			<probabilities>0.8636363636363636 0.1363636363636364 0.5555555555555556 0.4444444444444444 0.2444444444444445 0.7555555555555555</probabilities>
+		</cpt>
+		<cpt id="Mei7">
+			<state id="LaNina" />
+			<state id="Neutral" />
+			<state id="ElNino" />
+			<parents>Tob7</parents>
+			<probabilities>0.5909090909090909 0.3636363636363636 0.04545454545454546 0.2407407407407407 0.6759259259259259 0.08333333333333333 0.2666666666666667 0.6666666666666667 0.06666666666666667</probabilities>
+		</cpt>
+		<cpt id="Tob8">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<probabilities>0.5862884160756501 0.3569739952718676 0.05673758865248227</probabilities>
+		</cpt>
+		<cpt id="Previous8">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<parents>Tob8</parents>
+			<probabilities>0.7419354838709677 0.2580645161290323 0 0.271523178807947 0.6754966887417219 0.05298013245033113 0 0.4166666666666666 0.5833333333333333</probabilities>
+		</cpt>
+		<cpt id="Shorelinecurvature8">
+			<state id="Low" />
+			<state id="High" />
+			<parents>Tob8</parents>
+			<probabilities>0.3427419354838709 0.657258064516129 0.7880794701986755 0.2119205298013245 0.75 0.25</probabilities>
+		</cpt>
+		<cpt id="Tcseason8">
+			<state id="True" />
+			<state id="False" />
+			<parents>Tob8</parents>
+			<probabilities>0.4193548387096774 0.5806451612903225 0.6092715231788079 0.3907284768211921 0.6666666666666666 0.3333333333333333</probabilities>
+		</cpt>
+		<cpt id="Shorelinedirection8">
+			<state id="Low" />
+			<state id="High" />
+			<parents>Tob8</parents>
+			<probabilities>0.5846774193548387 0.4153225806451613 0.304635761589404 0.695364238410596 0.625 0.375</probabilities>
+		</cpt>
+		<cpt id="Tob9">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<probabilities>0.9999999999999999 0 0</probabilities>
+		</cpt>
+		<cpt id="Tob10">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<probabilities>0 0 1</probabilities>
+		</cpt>
+		<cpt id="Tob11">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<probabilities>0.2019543973941368 0.5374592833876222 0.260586319218241</probabilities>
+		</cpt>
+		<cpt id="Previous11">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<parents>Tob11</parents>
+			<probabilities>0.3548387096774194 0.4677419354838709 0.1774193548387097 0.1636363636363636 0.6606060606060606 0.1757575757575758 0.05 0.4375 0.5125000000000001</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="SMILE 2.0.3@bdeddf2f4937 " name="Unnamed">
+			<node id="Tob0">
+				<name>Tob0</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Previous0">
+				<name>Previous0</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Shorelinedirection0">
+				<name>Shorelinedirection0</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Tob1">
+				<name>Tob1</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Previous1">
+				<name>Previous1</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Shorelinedirection1">
+				<name>Shorelinedirection1</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Tob2">
+				<name>Tob2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Previous2">
+				<name>Previous2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Tcseason2">
+				<name>Tcseason2</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Tob3">
+				<name>Tob3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Previous3">
+				<name>Previous3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Shorelinecurvature3">
+				<name>Shorelinecurvature3</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Tob4">
+				<name>Tob4</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Previous4">
+				<name>Previous4</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Tcseason4">
+				<name>Tcseason4</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Tob5">
+				<name>Tob5</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Previous5">
+				<name>Previous5</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Tob6">
+				<name>Tob6</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Shorelinedirection6">
+				<name>Shorelinedirection6</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Tob7">
+				<name>Tob7</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Previous7">
+				<name>Previous7</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Shorelinedirection7">
+				<name>Shorelinedirection7</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Mei7">
+				<name>Mei7</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Tob8">
+				<name>Tob8</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Previous8">
+				<name>Previous8</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Shorelinecurvature8">
+				<name>Shorelinecurvature8</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Tcseason8">
+				<name>Tcseason8</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Shorelinedirection8">
+				<name>Shorelinedirection8</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Tob9">
+				<name>Tob9</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Tob10">
+				<name>Tob10</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Tob11">
+				<name>Tob11</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Previous11">
+				<name>Previous11</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+		</genie>
+	</extensions>
+</smile>

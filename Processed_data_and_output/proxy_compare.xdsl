@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smile version="1.0" id="Unnamed" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="MEI">
+			<state id="LaNina" />
+			<state id="Neutral" />
+			<probabilities>0.5 0.5</probabilities>
+		</cpt>
+		<cpt id="Surroundings">
+			<state id="Erosion" />
+			<state id="Accretion" />
+			<probabilities>0.625 0.375</probabilities>
+		</cpt>
+		<cpt id="TOB">
+			<state id="Erosion" />
+			<state id="Accretion" />
+			<parents>MEI Surroundings</parents>
+			<probabilities>0.09523809523809523 0.9047619047619047 0.2380952380952381 0.7619047619047619 0.119047619047619 0.8809523809523809 0.2619047619047619 0.738095238095238</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="SMILE 2.0.3@bdeddf2f4937 " name="Unnamed">
+			<node id="TOB">
+				<name>TOB</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>400 50 450 100</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Surroundings">
+				<name>Surroundings</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="MEI">
+				<name>MEI</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>600 50 650 100</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+		</genie>
+	</extensions>
+</smile>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smile version="1.0" id="Unnamed" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="Tob">
+			<state id="Erosion" />
+			<state id="Stable" />
+			<state id="Accretion" />
+			<probabilities>0.7235915492957746 0.2676056338028169 0.008802816901408451</probabilities>
+		</cpt>
+		<cpt id="Mei">
+			<state id="LaNina" />
+			<state id="Neutral" />
+			<parents>Tob</parents>
+			<probabilities>0.3187347931873479 0.6812652068126521 0.7039473684210525 0.2960526315789473 0 1</probabilities>
+		</cpt>
+		<cpt id="Tcseason">
+			<state id="True" />
+			<state id="False" />
+			<parents>Tob</parents>
+			<probabilities>0.5474452554744526 0.4525547445255474 0.6578947368421052 0.3421052631578947 1 0</probabilities>
+		</cpt>
+		<cpt id="Spring">
+			<state id="True" />
+			<state id="False" />
+			<parents>Tob</parents>
+			<probabilities>0.2773722627737226 0.7226277372262774 0.1776315789473684 0.8223684210526315 0 1</probabilities>
+		</cpt>
+		<cpt id="Autum">
+			<state id="True" />
+			<state id="False" />
+			<parents>Tob</parents>
+			<probabilities>0.3844282238442823 0.6155717761557178 0.4802631578947368 0.5197368421052632 1 0</probabilities>
+		</cpt>
+		<cpt id="Shorelinedirection">
+			<state id="Low" />
+			<state id="High" />
+			<parents>Tob</parents>
+			<probabilities>0.5279805352798054 0.4720194647201947 0.4473684210526315 0.5526315789473684 0.8 0.2</probabilities>
+		</cpt>
+		<cpt id="Shorelinecurvature">
+			<state id="Low" />
+			<state id="High" />
+			<parents>Tob</parents>
+			<probabilities>0.4525547445255474 0.5474452554744526 0.631578947368421 0.3684210526315789 0.8 0.2</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="SMILE 2.0.3@bdeddf2f4937 " name="Unnamed">
+			<node id="Tob">
+				<name>Tob</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Mei">
+				<name>Mei</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Tcseason">
+				<name>Tcseason</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Spring">
+				<name>Spring</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Autum">
+				<name>Autum</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Shorelinedirection">
+				<name>Shorelinedirection</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+			<node id="Shorelinecurvature">
+				<name>Shorelinecurvature</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+				<barchart active="true">
+				</barchart>
+			</node>
+		</genie>
+	</extensions>
+</smile>

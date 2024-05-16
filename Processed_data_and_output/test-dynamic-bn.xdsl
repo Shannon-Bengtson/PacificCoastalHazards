@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smile version="1.0" id="Unnamed" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="location">
+			<state id="pittsburgh" />
+			<state id="sahara" />
+			<probabilities>0.375 0.625</probabilities>
+		</cpt>
+		<cpt id="rain" dynamic="plate">
+			<state id="true" />
+			<state id="false" />
+			<parents>location</parents>
+			<probabilities>0.2777777777777778 0.7222222222222222 0.4333333333333333 0.5666666666666667</probabilities>
+		</cpt>
+		<cpt id="umbrella" dynamic="plate">
+			<state id="true" />
+			<state id="false" />
+			<parents>rain</parents>
+			<probabilities>0.7222222222222222 0.2777777777777778 0.4 0.6</probabilities>
+		</cpt>
+	</nodes>
+	<dynamic numslices="10">
+		<cpt id="rain" order="1">
+			<parents>rain</parents>
+			<probabilities>0.25 0.25 0.25 0.25 0.25 0.25 0.25 0.25</probabilities>
+		</cpt>
+	</dynamic>
+	<extensions>
+		<genie version="1.0" app="SMILE 2.0.3@bdeddf2f4937 " name="Unnamed">
+			<plate leftwidth="120" rightwidth="120">20 20 620 320</plate>
+			<node id="location">
+				<name>location</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="umbrella">
+				<name>umbrella</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="rain">
+				<name>rain</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>
