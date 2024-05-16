@@ -37,3 +37,11 @@ ssh -N -f -L localhost:8989:localhost:8989 <user>@hostname
 ```
 
 Then, in a browser naviate to localhost:8989. If a token is required, copy and paste the token key from the output in terminal/command prompt window for the external server.
+
+# Running the Notebooks
+
+The code is split across three mains notebooks (for running creating the model), and two additional notebooks for visualisation. They are designed to be run in order (nb1 -> nb2 -> nb3).
+
+1. Create geopandas dataframes from geojson/shapefiles in the correct format for further processing.
+2. Create shoreline transects, calculate shoreline change relative to a standard year, visualise correlation between shoreline change and wave model output, and cluster the data.
+3. For each cluster, use correlation analysis to create BN features, then using the SMILE engine, create a BN model.
