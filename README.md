@@ -6,7 +6,7 @@ First, open a the terminal (mac/linux) or the command prompt (windows), and navi
 git clone https://github.com/Shannon-Bengtson/PacificCoastalHazards.git
 ```
 
-Setup the environment using conda.
+Navigate into the new directory, PacificCoastalHazards. Setup the environment using conda.
 
 ```sh
 conda env create -f environment.yml -n myenv
