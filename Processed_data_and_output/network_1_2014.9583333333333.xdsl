@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smile version="1.0" id="Unnamed" numsamples="10000" discsamples="10000">
+	<nodes>
+		<cpt id="TOB">
+			<state id="accretion" />
+			<state id="erosion" />
+			<state id="stable" />
+			<probabilities>0.4336158192090395 0.3319209039548023 0.2344632768361582</probabilities>
+		</cpt>
+		<cpt id="previous">
+			<state id="accretion" />
+			<state id="erosion" />
+			<state id="stable" />
+			<parents>TOB</parents>
+			<probabilities>0.6710097719869708 0.1693811074918567 0.1596091205211727 0.225531914893617 0.5702127659574469 0.2042553191489362 0.2650602409638554 0.2048192771084338 0.5301204819277109</probabilities>
+		</cpt>
+		<cpt id="minn1">
+			<state id="high" />
+			<state id="low" />
+			<state id="mid" />
+			<parents>TOB</parents>
+			<probabilities>0.3224755700325733 0.3517915309446254 0.3257328990228013 0.3106382978723404 0.2723404255319149 0.4170212765957447 0.3493975903614458 0.355421686746988 0.2951807228915663</probabilities>
+		</cpt>
+		<cpt id="maxx1">
+			<state id="high" />
+			<state id="low" />
+			<state id="mid" />
+			<parents>TOB</parents>
+			<probabilities>0.3745928338762215 0.2703583061889251 0.3550488599348534 0.2553191489361702 0.3872340425531915 0.3574468085106383 0.355421686746988 0.3313253012048193 0.3132530120481928</probabilities>
+		</cpt>
+		<cpt id="minn8">
+			<state id="high" />
+			<state id="low" />
+			<state id="mid" />
+			<parents>TOB</parents>
+			<probabilities>0.3550488599348534 0.2866449511400652 0.3583061889250814 0.2808510638297873 0.3319148936170213 0.3872340425531915 0.3433734939759036 0.3855421686746988 0.2710843373493976</probabilities>
+		</cpt>
+		<cpt id="maxx8">
+			<state id="high" />
+			<state id="low" />
+			<state id="mid" />
+			<parents>TOB</parents>
+			<probabilities>0.2768729641693811 0.3615635179153094 0.3615635179153094 0.3957446808510638 0.2553191489361702 0.348936170212766 0.3072289156626506 0.3614457831325301 0.3313253012048193</probabilities>
+		</cpt>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="SMILE 2.2.5@b1d1d6931678 " name="Unnamed">
+			<node id="TOB">
+				<name>TOB</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="previous">
+				<name>previous</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="minn1">
+				<name>minn1</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="maxx1">
+				<name>maxx1</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="minn8">
+				<name>minn8</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+			<node id="maxx8">
+				<name>maxx8</name>
+				<interior color="e5f6f7" />
+				<outline color="0000bb" />
+				<font color="000000" name="MS Sans Serif" size="8" />
+				<position>-38 -18 38 18</position>
+			</node>
+		</genie>
+	</extensions>
+</smile>
